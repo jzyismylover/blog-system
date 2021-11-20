@@ -1,0 +1,29 @@
+{
+  "name": "blog-system-self",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "^2.2.8",
+    "axios": "^0.24.0",
+    "qs": "^6.10.1",
+    "vue": "^3.2.16",
+    "vue-router": "4",
+    "vuex": "^4.0.2",
+    "wangeditor": "^4.7.9"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "@types/node": "^16.11.4",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.4",
+    "vue-tsc": "^0.3.0"
+  }
+}
